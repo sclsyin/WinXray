@@ -1,0 +1,14 @@
+﻿{
+testInterval=15;
+pacPort=0;
+maxTestServers=100;
+subscribeUrls={fields={[2]="checked";[1]="";[3]="ps";[4]="url"}};
+outbounds={};
+autoRefreshSubscription=true;
+useSocksPac=true;
+test=true;
+enableGitConfigGithub=true;
+mode="pac";
+hotkey={[1]=7;[2]=80};
+useHttpGlobal=true
+}

@@ -1,0 +1,3 @@
+﻿{
+default={outbounds={[2]={protocol="freedom";settings={};tag="direct"};[1]={tag="proxy"};[3]={protocol="blackhole";settings={response={["type"]="http"}};tag="block"}};log={loglevel="warning";access="";["error"]=""};inbounds={[1]={port=0;protocol="socks";listen="127.0.0.1";settings={udp=true;auth="noauth"};sniffing={destOverride={[1]="http";[2]="tls"};enabled=true};tag="proxy"};[2]={port=0;protocol="http";listen="127.0.0.1";settings={};sniffing={destOverride={[1]="http";[2]="tls"};enabled=true};tag="http_proxy"}};routing={domainStrategy="IPIfNonMatch";rules={[1]={["type"]="field";inboundTag={[1]="api"};outboundTag="api"}}}}
+}
